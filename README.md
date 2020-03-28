@@ -5,6 +5,10 @@
 
 Custom template content for Azure AD B2C pages.
 
+Templates:
+
+- [Bootstrap v4](./screenshots/bootstrap)
+
 # Table of Contents
 
 - [Features](#features)
