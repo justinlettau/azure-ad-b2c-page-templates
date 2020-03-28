@@ -1,0 +1,126 @@
+html,
+body {
+  height: 100vh;
+}
+
+.bg {
+  background-image: url('/assets/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inner {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.box {
+  max-width: 400px;
+  flex-grow: 1;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin: 0;
+}
+
+.logo {
+  margin-right: 1rem;
+  max-width: 80px;
+}
+
+/*
+ * Azure provided content
+ *********************/
+
+.intro {
+  display: none;
+}
+
+/* primary buttons */
+#next,
+#continue {
+  width: 100%;
+  max-width: 150px;
+}
+
+/* sign-up verify email buttons */
+#email_ver_but_send,
+#email_ver_but_verify,
+#email_ver_but_resend,
+#email_ver_but_edit {
+  margin-top: .5rem;
+}
+
+#forgotPassword {
+  display: none;
+}
+
+.divider {
+  display: none;
+}
+
+.buttons {
+  text-align: right;
+}
+
+/* sign-up text container */
+.create {
+  text-align: right;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+/* sign-up text */
+.create p {
+  margin-bottom: 0;
+}
+
+/* sign-up link */
+#createAccount {
+  margin-left: 0.5rem;
+}
+
+/* input help text */
+.helpLink {
+  display: none;
+}
+
+/* validation errors, hide by default */
+.error {
+  display: none;
+}
+
+/* show validation errors */
+.show {
+  display: block;
+}
+
+/* hide form labels */
+.entry-item label,
+.attrEntry label,
+#email_ver_input_label {
+  display: none !important;
+}
+
+/* verify email input */
+#email_ver_input {
+  margin-top: .5rem;
+}
+
+.attr ul {
+  padding: 0;
+}
+
+.attr ul li {
+  list-style-type: none;
+}

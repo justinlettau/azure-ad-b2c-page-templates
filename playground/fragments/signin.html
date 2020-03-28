@@ -1,0 +1,65 @@
+<form
+  id="localAccountForm"
+  action="JavaScript:void(0);"
+  class="localAccount"
+  aria-label="Sign in with your existing account"
+>
+  <div class="intro">
+    <h2>
+      Sign in with your existing account
+    </h2>
+  </div>
+  <div class="error pageLevel invalid-feedback" aria-hidden="true" role="alert" style="display: none;">
+    <p></p>
+  </div>
+  <div class="entry">
+    <div class="entry-item form-group">
+      <label for="logonIdentifier">
+        Email Address
+      </label>
+      <div class="error itemLevel invalid-feedback" aria-hidden="true" role="alert" style="display: none;">
+        <p tabindex="1"></p>
+      </div>
+      <input
+        type="email"
+        title="Please enter a valid email address."
+        id="logonIdentifier"
+        name="Username or email address"
+        pattern="^[a-zA-Z0-9.!#$%&amp;’'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
+        placeholder="Email Address"
+        value=""
+        tabindex="1"
+        aria-label="Email Address"
+        class="form-control"
+      />
+    </div>
+    <div class="entry-item form-group">
+      <div class="password-label">
+        <label for="password">Password</label>
+        <a id="forgotPassword" tabindex="2" href="password-reset">Forgot your password?</a>
+      </div>
+      <div class="error itemLevel invalid-feedback" aria-hidden="true" style="display: none;">
+        <p role="alert"></p>
+      </div>
+      <input
+        type="password"
+        id="password"
+        name="Password"
+        placeholder="Password"
+        tabindex="1"
+        aria-label="Password"
+        class="form-control"
+      />
+    </div>
+    <div class="working"></div>
+    <div class="buttons">
+      <button id="next" type="submit" form="localAccountForm" tabindex="1" class="btn btn-primary">Sign in</button>
+    </div>
+  </div>
+  <div class="divider">
+    <h2>OR</h2>
+  </div>
+  <div class="create">
+    <p>Don't have an account?<a id="createAccount" tabindex="1" href="signup">Sign up now</a></p>
+  </div>
+</form>

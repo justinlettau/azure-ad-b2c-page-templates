@@ -1,0 +1,10 @@
+{
+  "themes": [
+    {
+      "name": "Bootstrap",
+      "version": "4.3.1",
+      "website": "https://getbootstrap.com/docs/4.3/",
+      "directory": "bootstrap"
+    }
+  ]
+}
