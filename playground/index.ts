@@ -38,7 +38,7 @@ app.get('/themes/:theme/:page', (req, res) => {
     const value = config[key];
 
     html = html.replace(regex, value);
-  })
+  });
 
   const $ = cheerio.load(html);
 
